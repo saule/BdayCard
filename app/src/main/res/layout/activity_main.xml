@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ingkar_card"
+        android:scaleType="centerCrop"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tughan kýningmen, Ingkár!"
+
+
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="20sp"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="izgi niyetpen: Ana"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+</RelativeLayout>
